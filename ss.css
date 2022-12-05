@@ -1,0 +1,73 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+body {
+	font-family: 'Prompt', sans-serif;
+	 color: white;
+}
+
+tex {
+  width: 320px;
+  padding: 10px;
+  border: 2px solid white;
+  margin: 0;
+}
+
+p {
+  width: 1000px;
+  height: 1400px;
+  padding: 20px;
+  border: 1px solid;
+}
+
+red {
+        color: red;
+    }
+
+body {
+        color: white;
+    }
+	
+p2 {
+  width: 1000px;
+  height: 1400px;
+  padding: 20px;
+  border: 1px solid;
+}
+
+body {
+	background-image: url("https://media.istockphoto.com/id/1204969069/th/%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B8%B5%E0%B9%82%E0%B8%AD/%E0%B8%97%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%80%E0%B8%95%E0%B9%87%E0%B8%A1%E0%B9%84%E0%B8%9B%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%94%E0%B8%A7%E0%B8%87%E0%B8%94%E0%B8%B2%E0%B8%A7%E0%B8%A2%E0%B8%B2%E0%B8%A1%E0%B8%84%E0%B9%88%E0%B9%8D%E0%B8%B2%E0%B8%84%E0%B8%B7%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%AB%E0%B8%A7%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B8%A7%E0%B8%87%E0%B8%94%E0%B8%B2%E0%B8%A7%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B4%E0%B8%9A%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B1%E0%B8%9A%E0%B8%89%E0%B8%B2%E0%B8%81%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87.jpg?b=1&s=640x640&k=20&c=FbYAnMo4D4L3h4SraopSgzaiEvbKgjH4UP3Y4kfK45E= ");
+} 
+
+a {
+	 color: white;
+}
